@@ -1,0 +1,41 @@
+/* Styling for main content */
+main {
+    max-width: 840px;
+    margin: 0 auto; /* Centering the main content */
+  }
+  
+  /* Styling for the aside element */
+  aside {
+    width: 20rem;
+    margin: 1rem auto; /* Centering the aside element */
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Styling for images inside the aside element */
+  aside img {
+    width: 200px;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* More specific selector for images inside the main element */
+  main img {
+    width: 150px;
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Removing padding from paragraphs */
+  p {
+    padding: 0;
+  }
+  
+  /* Styling for the footer */
+  footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+  }
+  
